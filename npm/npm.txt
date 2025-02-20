@@ -1,0 +1,8 @@
+nodemon globally
+
+npm install -g nodemon
+
+package.json
+
+npm init
+
