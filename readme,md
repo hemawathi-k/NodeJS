@@ -1,0 +1,6 @@
+Initialize Git     	git init
+Add files	        git add .
+Commit	            git commit -m "message"
+Push	            git push origin main
+Pull	            git pull origin main
+Create Branch	    git checkout -b new-branch
