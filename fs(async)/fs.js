@@ -2,11 +2,19 @@ const fs=require('fs');
 
 
 // Read File
-fs.readFile('./text.txt',(err,data)=>{
+//fs.readFile('./text.txt',(err,data)=>{
+  //  if(err){
+    //    console.log(err);
+    //}
+    //console.log(data.toString());
+//});
+
+
+fs.readFile('./text.txt','utf8',(err,data)=>{
     if(err){
         console.log(err);
     }
-    console.log(data.toString());
+    console.log(data);
 });
 
 // write file
