@@ -1,0 +1,14 @@
+
+Method	URL	Expected Response
+GET	http://localhost:3000/users	"GET: Fetch users"
+POST	http://localhost:3000/users	"POST: Add user"
+in body 
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+
+PUT	http://localhost:3000/users/1	"PUT: Update user 1"
+PATCH	http://localhost:3000/users/1	"PATCH: Partially update user 1"
+DELETE	http://localhost:3000/users/1	"DELETE: Remove user 1"
